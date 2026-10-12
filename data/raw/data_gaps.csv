@@ -1,0 +1,13 @@
+item,what_happened,how_handled
+Wingman Partners,Own website is JavaScript-rendered; only the title 'Redefining Engineering Services' was readable.,"Company profile taken from a third-party listing (ZoomInfo: engineering services, 51-200 employees, unverified). Wingman is NOT in the dataset; recommendations are framed for a firm of its type."
+iMOBDEV,Site disallows automated fetching (robots).,Excluded. No workaround attempted.
+Fablian Technolab,Domain redirected to a different site; could not confirm it is the same company.,Excluded rather than guess.
+All brands,"Only homepages were read, via a page-fetch summarizer.","'Not found' means not seen in the homepage text, not proven absent. Spot-check quotes against live pages."
+All brands,"Core stats (years, team, ratings, CTAs) were fetched twice for 5 of 7 brands; Space-O rate fetched twice; Thoughtworks once.",Confidence column reflects this.
+Pricing,Only 1 of 7 brands publishes a rate.,"Pricing is analysed as a transparency gap, not a price comparison."
+Netguru,Page contradicts itself (17+ vs 10+ years; 400+ vs 630 people).,Body figures used; conflict recorded in notes.
+Appinventiv,Page lists 15 compliance frameworks without saying whether certified.,"Stored as 'compliance listed', never counted as certifications."
+Claims,"Ratings, project counts, years and team sizes are the firms' own claims.",Not verified market data.
+Thoughtworks,"No itemised services, engagement models or subheadline on homepage.",Left blank.
+Not collected,"Traffic, SEO keywords, ad spend, LinkedIn activity, review-site content, win rates, revenue.",Out of scope; this is a public-homepage benchmark.
+Themes,"Messaging themes are keyword matches on headline + subheadline (positioning), CTA text, and engagement-model text.","Rules in src/themes.py, mirrored by Excel formulas."

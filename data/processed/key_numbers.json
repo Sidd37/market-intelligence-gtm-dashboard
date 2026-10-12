@@ -1,0 +1,19 @@
+{
+  "n_brands": 7,
+  "ai_led": 7,
+  "vertical_headline": 2,
+  "publish_rate": 1,
+  "call_cta": 5,
+  "quote_cta": 3,
+  "hire_cta": 2,
+  "proof_cta": 4,
+  "nda_cta": 1,
+  "case_yes": 6,
+  "whitepaper_yes": 2,
+  "podcast_yes": 4,
+  "clutch_cited": 2,
+  "dedicated_team": 5,
+  "fixed_price": 2,
+  "median_industries": 7.0,
+  "median_content": 4.0
+}
