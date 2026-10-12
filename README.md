@@ -14,11 +14,13 @@ A competitive-intelligence dashboard for **B2B lead generation and go-to-market 
 
 ## Run it
 ```
+git clone https://github.com/Sidd37/market-intelligence-gtm-dashboard.git
+cd market-intelligence-gtm-dashboard
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
-streamlit run app/dashboard.py       # interactive dashboard
-python run_all.py                    # optional: rebuild analysis outputs + Excel workbook
-python tests/test_app.py             # dashboard edge cases (empty selection, filters)
-python tests/test_parity.py          # Excel values == Python values (on the recalculated workbook)
+streamlit run app/dashboard.py
+
 ```
 `excel/gtm_workbook.xlsx` is formula-driven (blue = sourced input, black = formula). Pick a brand on the **Dashboard** sheet; edit keywords on **Positioning / CTA Funnel / Engagement** to re-run the detection. The parity test needs the workbook's saved values; the shipped file has them, a file rebuilt by `run_all.py` gets them once opened and saved in Excel.
 
